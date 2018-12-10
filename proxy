@@ -1,0 +1,2 @@
+# No proxy for an ip list, can be added to bashrc :
+export no_proxy=`echo 10.22.{1..255}.{1..255} | sed 's/ /,/g'`
